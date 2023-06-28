@@ -16,4 +16,7 @@ setup(
     python_requires=">=3.7",
     setup_requires=[""],
     install_requires=[""],
+    entry_points={
+        "console_scripts": ["hello-world=py_project.hello_world:hello_world"]
+    },
 )
